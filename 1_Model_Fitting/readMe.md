@@ -9,7 +9,7 @@ Two different model fitting is used.
 
 ![](images/exponential_model_eqn.png)
 
-![](images/exponential_model.png)
+![](images/exponential_model_graph.png)
 
 The derived equation with least residual is
 
@@ -19,7 +19,7 @@ The derived equation with least residual is
 
 ![](images/circular_model_eqn.png)
 
-![](images/circular_model.png)
+![](images/circular_model_graph.png)
 
 The derived equation with least residual is
 
