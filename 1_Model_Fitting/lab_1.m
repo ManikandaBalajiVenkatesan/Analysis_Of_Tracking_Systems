@@ -12,8 +12,8 @@ X = meal_data(:,3); X = X';
 data = [ X; Y];
 curve = curve_exponential(X,Y,1);
 curve_plotter(X,Y,curve)
-[c_x, c_y, c_r] = curve_circle(data);
-curve_plotter_circluar(X,Y,c_x, c_y, c_r)
+% [c_x, c_y, c_r] = curve_circle(data);
+% curve_plotter_circluar(X,Y,c_x, c_y, c_r)
 
 
 
@@ -159,6 +159,8 @@ function curve_plotter(X,Y,curve)
     fplot(curve,[min(X),max(X)],'LineWidth',5)
     title("Exponential Model")
     legend("Data Points","Model")
+    xlabel("Kilocalories/bite")
+    ylabel("Bites")
 end
 
 
@@ -180,6 +182,8 @@ function curve_plotter_circluar(X,Y,c_x, c_y, c_r)
     plot(X_eqn,Y_eqn,'r','LineWidth',5)
     title("Cicle Model")
     legend("Data Points","Model")
+    xlabel("Kilocalories/bite")
+    ylabel("Bites")
 end
 
 
