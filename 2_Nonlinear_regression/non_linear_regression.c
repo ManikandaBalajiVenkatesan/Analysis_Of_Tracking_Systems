@@ -29,13 +29,14 @@ void main (int argc, char *argv[])
         k = fscanf(fpt,"%f %f",&x[i],&y[i]);
     fclose(fpt);
     
-    an = 10;      //initial value data a and b
-    // an = 0.4;     //initial value data c
+    // an = 10;      //initial value data a and b
+    an = 0.4;     //initial value data c
     
     printf("initial an %lf ",an);
     int j;      //to keep track of iterations
     for(j=0; j<TOTAL_ITERATIONS; j++)
     {
+        fan=0, fpan=0;
         for(int i=0; i<lines; i++)
         {
             fan+= ( log(an*x[i]) - y[i] ) / an;
