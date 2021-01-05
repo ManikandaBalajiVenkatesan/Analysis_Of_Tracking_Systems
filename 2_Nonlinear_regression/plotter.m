@@ -1,6 +1,6 @@
 %to be filled by user
-data = load('data_C.txt');
-an = 0.289;
+data = load('data_A.txt');
+an = 6.711;
 
 syms x;
 curve = log(an*x);
