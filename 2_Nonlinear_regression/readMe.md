@@ -44,9 +44,15 @@ The program can be run by `lab2.exe dataset.txt`
  
  Output for the three datasets are as follows.
  
+ data_A
+
 ![data_A](images/data_A_curve_fit.png)
- 
+
+data_B
+
 ![data_B](images/data_B_curve_fit.png)
-  
+
+data_C
+
 ![data_C](images/data_C_curve_fit.png)
  
