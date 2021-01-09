@@ -65,6 +65,7 @@ figure(1)
 plot(data_2d_raw(:,1),data_2d_raw(:,2))
 hold on
 plot(data_2d_filtered(:,1),data_2d_filtered(:,2))
+title("Plot 
 
 figure(2)
 plot(data_2d_raw(:,1))

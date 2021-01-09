@@ -41,3 +41,5 @@ plot(data_1d_raw)
 hold on
 plot(data_1d_filtered)
 title(["Dynamic (Q) to Measurement (R) noise ratio ",num2str(dyn_var/meas_var)])
+xlabel("time(s)")
+ylabel("position")
