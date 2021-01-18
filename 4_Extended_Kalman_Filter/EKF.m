@@ -1,4 +1,4 @@
-load('lab5_part1_data');
+load('EKF_data');
 
 %state of the system are x, x_dot, h
 %state transition equations are
